@@ -40,18 +40,19 @@
   
 <distributionManagement>
     <repository>
-        <id>deployment</id>
-        <name>deployment</name>
-        <url>http://192.168.1.69:8081/nexus/content/repositories/mph/</url>
+    <id>deployment</id>
+    <name>deployment</name>
+<url>http://192.168.1.69:8081/nexus/content/repositories/mph/</url>
     </repository>
-    <snapshotRepository>
-        <id>deployment</id>
-        <name>deployment</name>
-        <url>http://192.168.1.69:8081/nexus/content/repositories/mphsnap/</url>
-    </snapshotRepository>
-</distributionManagement>
 	
-
+    <snapshotRepository>
+ <id>deployment</id>
+ <name>deployment</name>
+ <url>http://192.168.1.69:8081/nexus/content/repositories/mphsnap/</url>
+ </snapshotRepository>
+ </distributionManagement>
+	
+	
 
 
 
